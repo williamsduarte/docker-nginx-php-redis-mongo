@@ -86,7 +86,7 @@ Adminstração de Laravel, Nginx, PHP-FPM, Redis e MongoDB com Docker.
 7. Para instalar execute o comando abaixo :
 
     ```sh
-    sudo docker-compose up -d && echo "Por favor, aguarde enquanto o serviço é ..." && sleep 5 && docker exec myapp-web /usr/share/nginx/setup.sh
+    sudo docker-compose up -d && echo "Por favor, aguarde enquanto o serviço é ..." && sleep 5 && docker exec myapp-web /usr/local/bin/setup.sh
     ```
 8. Saiba como configurar o pacote Laravel MongoBD no link abaixo :
     
